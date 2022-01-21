@@ -1,7 +1,7 @@
 #!/bin/sh
 set -e
 
-go install github.com/traefik/yaegi/cmd/yaegi@latest
+go install github.com/traefik/yaegi/cmd/yaegi@v0.11.2
 
 cd cmd/repl
 
